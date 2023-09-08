@@ -1,3 +1,6 @@
+# Repository Archived
+This Repository has been archived for privacy reasons. There is some important code I cannot update as the code features very sensitive information.
+
 # BackwardsDevelopment.ca
 [BackwardsDevelopment.ca](https://www.backwardsdevelopment.ca) is my Official website.  
 This website is used to showcase, and sell my work. This is the source code for the page as I believe that most things should be open sourced, as the best way to improve your work is by giving the public the opportunity to look over your work, searching for errors, or something they think could be done slightly better.
