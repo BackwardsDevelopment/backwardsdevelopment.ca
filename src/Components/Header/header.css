@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes hide {
+    100% {
+        transform: translateX(-100%);
+        display: none;
+    }
+}
+
+@keyframes show {
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(0)
+    }
+    100% {
+        transform: translateY(5%);
+    }
+}
+
+#scroll-indicator {
+    animation-name: bounce;
+    animation-duration: 100ms;
+    animation-timing-function: ease-in;
+}
+
+.hide {
+    animation-name: hide;
+    animation-duration: 250ms;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+.show {
+    display: block;
+    animation-name: show;
+    animation-duration: 250ms;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 500ms;
+}

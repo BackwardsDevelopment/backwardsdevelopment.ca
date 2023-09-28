@@ -1,18 +1,46 @@
-# Repository Archived
-This Repository has been archived for privacy reasons. There is some important code I cannot update as the code features very sensitive information.
+# Getting Started with Create React App
 
-# BackwardsDevelopment.ca
-[BackwardsDevelopment.ca](https://www.backwardsdevelopment.ca) is my Official website.  
-This website is used to showcase, and sell my work. This is the source code for the page as I believe that most things should be open sourced, as the best way to improve your work is by giving the public the opportunity to look over your work, searching for errors, or something they think could be done slightly better.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Usage
-Feel free to use this work, reminder it is under the [MIT license](https://www.tldrlegal.com/license/mit-license). So make sure to give that a read before using, also while it's not required, I would appreciate if you'd change the titles, etc.
+## Available Scripts
 
-## Contributions
-I'm not really looking for contributions to this page.
-Anything within the main branch of this repository will likely find its way onto my server.
-However don't be afraid to open a pull request. I will still look over pull requests, I'm just going to be a little more strict with what I allow.
+In the project directory, you can run:
 
-**TL;DR**: Feel free to open a pull request or issue. Although It will be more strict than my other repos.
+### `npm start`
 
-## [Todo](./todo.md)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).

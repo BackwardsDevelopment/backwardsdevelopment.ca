@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link-container > * {
+    margin: auto 0.75rem;
+}
+
+button * {
+    transition-duration: 100ms;
+}
+
+button:hover * {
+    fill: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+    button:hover * {
+        fill: #a3a3a3;
+    }
+}
