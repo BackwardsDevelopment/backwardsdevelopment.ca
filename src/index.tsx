@@ -30,12 +30,9 @@ function scroll_event() {
 
   console.log(header?.getBoundingClientRect().top)
   if (header?.getBoundingClientRect().top === 0) {
-    scroll_ind?.classList.remove("hide");
-    scroll_ind?.classList.add("show");
+    scroll_ind?.classList.replace("hide", "show");
   } else {
-    scroll_ind?.classList.remove("show");
-    scroll_ind?.classList.add("hide");
-
+    scroll_ind?.classList.replace("show", "hide");
   }
 
   if (nav?.getBoundingClientRect().top === 0) {
